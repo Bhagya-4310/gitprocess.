@@ -1,5 +1,4 @@
-public class Addition{
-
+public class Addition {
         public int a;
         public int b;
 
@@ -7,11 +6,12 @@ public class Addition{
             this.a = a;
             this.b = b;
         }
-
         public int add() {
             Addition addition = new Addition(5, 10);
             int total = a + b;
+            int total1=a-b;
             System.out.println("sum=" + total);
+            System.out.println("sub=" +total1 );
             return total;
         }
-    }
+}
